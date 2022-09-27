@@ -26,7 +26,7 @@ SECRET_KEY = '#^z_7hd(538h=l8luekkv@&12sz#^oq*ferugz4k69u!x%9ti)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["djangoweb-mfds.azurewebsites.net"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -142,5 +142,5 @@ LOGIN_REDIRECT_URL = 'feed'
 LOGIN_URL = 'login'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
